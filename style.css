@@ -1,0 +1,35 @@
+.weather{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 50px 25px 25px 25px;
+    grid-column-gap:40px;
+    align-items: center;
+    padding: 35px;
+    height: 220px;
+    width: 440px;
+    background-color: blue;
+    color: white;
+    border: 0 solid blue;
+    border-radius: 15px;
+}
+.image {
+    height: 80px;
+    width: 80px;
+}
+.temp {
+    font-size: 30px;
+    font-weight: bold;
+}
+.description {
+    font-size: 22px;
+    font-weight: bold;
+}
+.description::first-letter {
+    text-transform: uppercase;
+}
+.city{
+    font-weight: bold;
+}
+.search{
+    padding-bottom: 30px;
+}
